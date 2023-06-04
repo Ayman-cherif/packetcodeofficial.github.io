@@ -1,0 +1,238 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+.shape{
+    background-color: #f49cad;
+    border-top-left-radius: 900px;
+    width: 80%;
+    height: 101.2%;
+    position: absolute;
+    right: 0;
+}
+.shape img:first-child{
+    position: absolute;
+    margin-top: 205px;
+    margin-right: 250px;
+}
+
+.shape img:last-child{
+    position: absolute;
+    margin-left: 350px;
+    margin-bottom: 550px;
+    bottom: 0;
+}
+
+.container{
+    margin-top: 69px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    height: auto;
+    height: fit-content;
+}
+
+@media (max-width: 1024px) {
+    .container{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+}
+
+.navigation{
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 150%;
+}
+.sous-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+
+.navigation ul a{
+    text-decoration: none;
+    color: #202020;
+    margin-left: -50px
+}
+
+.navigation ul li{
+    margin-left: 100px;
+}
+
+.navigation input{
+    background-color: rgba(255, 255, 255, 0.414);
+    outline: 0;
+    border: none;
+    height: 50%;
+    display: none;
+}
+
+.navigation .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.navigation div div{
+    background-color: white;
+    border-radius: 100px;
+    height: 46px;
+    width: 46px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.navigation div div i{
+    margin: auto;
+    color: #f49cad;
+}
+
+.title h1{
+    margin-left: -80px;
+}
+
+.registration{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.registration h1{
+    color: #344dc5;
+    font-size: 10pt;
+    font-weight: 800;
+    margin-left: 60px;  
+}
+
+.registration p{
+    margin-left: 60px;margin-top: 50px;
+}
+
+.registration div:not(.contact){
+    display: flex;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+
+.registration div input{
+    background-color: rgba(255, 255, 255, 0.124);
+    outline: 0;
+    border: 2px solid white;
+    border-radius: 10px ;
+    width: 600px;
+    height: 60px;
+}
+
+.registration div input::placeholder{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.registration div button{
+    background-color: #344dc5;
+    border-radius: 10px;
+    height: 66px;
+    width: 194px;
+    outline: 0;
+    border: none;
+    font-weight: 700;
+    font-size: 150%;
+    color: white;
+    margin-right: -50px;
+    position: relative;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.contact div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact h1{
+    color: white;
+    font-size: 130%;
+    font-weight: 400;
+}
+
+.logo{
+    grid-row:  span 2;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.logo img:not(img:first-child){
+    margin-left: 214px;
+    
+}
+
+.logo img:first-child{
+    position: absolute;
+    margin-left: 44px;
+
+}
+
+.logo h1{
+    color: #b42843;
+    font-size: 300%;
+    letter-spacing: 15px;
+    margin-left: 114px;
+}
+
+.image{
+display: flex;
+flex-wrap: wrap;
+}
+
+#link{
+    padding: 10px;
+}
+
+/*          Animations             */
+
+.registration button:hover{
+    cursor: pointer;
+}
+
+#link:hover{
+    background-color: rgba(240, 248, 255, 0.428);
+    height: fit-content;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.contact div:hover{
+    background-color: rgba(240, 248, 255, 0.428);
+    height: fit-content;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
