@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/div"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/div" />
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="520dp"
+        android:src="@drawable/plus" />
+    <ImageView
+        android:id="@+id/fois"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/fois" />
+    <ImageView
+        android:id="@+id/moin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="610dp"
+        android:src="@drawable/moin" />
+    <ImageView
+        android:id="@+id/egale"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="700dp"
+        android:src="@drawable/egale" />
+    <ImageView
+        android:id="@+id/clear"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/cc" />
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/delete" />
+    <Button
+        android:id="@+id/un"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/rounded_corner"
+        android:text="1"/>
+    <Button
+        android:id="@+id/deux"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/rounded_corner"
+        android:text="2" />
+    <Button
+        android:id="@+id/trois"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/rounded_corner"
+        android:text="3" />
+    <Button
+        android:id="@+id/quatre"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/rounded_corner"
+        android:text="4"/>
+    <Button
+        android:id="@+id/cinque"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/rounded_corner"
+        android:text="5" />
+    <Button
+        android:id="@+id/six"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/rounded_corner"
+        android:text="6"
+        />
+    <Button
+        android:id="@+id/sept"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/rounded_corner"
+        android:text="7" />
+    <Button
+        android:id="@+id/huit"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/rounded_corner"
+        android:text="8" />
+    <Button
+        android:id="@+id/neuf"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/rounded_corner"
+        android:text="9" />
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/rounded_corner"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="448dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:textSize="30sp"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/secoundinpunt"
+        android:layout_width="448dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="160dp"
+        android:textSize="30sp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/operation"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/rounded_corner"
+        android:textSize="30sp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATRICE"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
